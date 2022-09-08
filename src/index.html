@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Logic Product Table</title>
-    <link rel="stylesheet" href="/src/style.css">
-</head>
-<body>
-    
-</body>
-<script src="index.js"></script>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>Product Id</th>
+            <td><input type="text" name="fname" id="id"></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Product Name</th>
+            <td><input type="text" name="lname" id="name"></td>
+          </tr>
+          <tr>
+            <th>Product Price</th>
+            <td><input type="text" name="email" id="price"></td>
+          </tr>
+          
+          <tr id="btn">
+            <td colspan="2"><input type="button" name="button" id="btn" value="ADD PRODUCT" onclick="AddRow()"></td>
+          </tr>
+        </tbody>
+      </table>
+  
+      <table id="show">
+        <thead>
+          <tr>
+            <th class="pid">Product ID</th>
+            <th class="pname">Product Name</th>
+            <th class="pprice">Product Price</th>
+          </tr>
+        </thead>
+      </table>
+     
+    </div>
+  </body>
+  <script src="index.js"></script>
 </html>

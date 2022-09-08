@@ -1,3 +1,23 @@
-body{
-    background-color: brown;
+#show{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between
+}
+#id{
+    margin-left: 20%;
+}
+#name{
+    margin-left: 20%;
+}
+#price{
+    margin-left: 20%;
+}
+#btn{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 50%;
+    height: 3em;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
